@@ -25,16 +25,16 @@ exports.overload = function() {
         }
 
         // if a match is found, call the corresponding function
-        console.log(match);
+        //console.log(match);
         if (match >= 0) {
             for (var i=0; i<args.length; i++) {
                 argstring += 'args['+i+']'+(i == args.length-1 ? '' : ', ');
             }
-            console.log('funcs[match]('+argstring+')');
+            //console.log('funcs[match]('+argstring+')');
             eval('funcs[match]('+argstring+');');
         }
         else {
-            console.log('A signature-function match was not found.');
+            console.log('A signature match was not found.');
             return false;
         }
     }
