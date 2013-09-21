@@ -1,0 +1,12 @@
+{
+  "name": "parametric",
+  "description": "Analog imperfections for your digital images.",
+  "version": "0.0.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trusktr/node-parametric"
+  },
+  "bugs": "http://github.com/trusktr/node-parametric/issues",
+  "dependencies": {}
+}
