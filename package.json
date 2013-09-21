@@ -1,6 +1,6 @@
 {
   "name": "parametric",
-  "description": "Analog imperfections for your digital images.",
+  "description": "Pseudo method overloading for JavaScript.",
   "version": "0.0.1",
   "private": false,
   "repository": {
