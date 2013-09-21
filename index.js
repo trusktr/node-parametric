@@ -31,7 +31,7 @@ exports.overload = function() {
                 argstring += 'args['+i+']'+(i == args.length-1 ? '' : ', ');
             }
             //console.log('funcs[match]('+argstring+')');
-            eval('return funcs[match]('+argstring+');');
+            return eval('funcs[match]('+argstring+');');
         }
         else {
             console.log('A signature match was not found.');
