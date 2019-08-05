@@ -8,10 +8,15 @@ Pseudo method overloading for JavaScript.
 
 ## Usage
 
+<!--
+
 You can use parametric in a couple different ways.
 
 ### First Method
-One way to use parametric is to call it inside a function that will have more than one parameter signature.
+
+-->
+
+Call `parametric.overload` inside a function that will have more than one parameter signature.
 
 For example, suppose you'd like to make a function called `myFunction` that can
 receive different arguments based on what you want it to do. Let's say you'd
