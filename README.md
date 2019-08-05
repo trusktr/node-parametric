@@ -76,6 +76,8 @@ If the arguments don't match a signature, nothing gets executed, and a message i
 
 Lastly, be sure to return the value returned from parametric.overload() as the return value for your function (notice the `return` in the first line of `myFunction` in the above example).
 
+<!--
+
 ### Second Method
 
 Note: This method is not implemented yet. Only the first method works for now.
@@ -94,6 +96,8 @@ parametric.overload(myFunction, ["", 1], function(stringOne, number) {
     // do stuff with the two arguments.
 });
 ```
+
+-->
 
 ### Contributing
 
